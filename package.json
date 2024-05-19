@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +17,7 @@
     "@types/node": "^20.12.12",
     "eslint": "9.x",
     "globals": "^15.3.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.9.0"
   }
