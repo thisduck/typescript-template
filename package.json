@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "lint": "eslint src",
+    "lint": "eslint --ext .ts src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,8 +14,10 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.12",
-    "globals": "^15.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "eslint": "^8.0.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "~>5.3.0"
   }
 }
